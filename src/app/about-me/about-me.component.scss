@@ -1,0 +1,20 @@
+$content-width: 75%;
+$divider-width: 80%;
+$divider-margin: 0 0 .75em;
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .description {
+      width: $content-width;
+      text-align: center;
+    }
+  
+    mat-divider {
+      width: $divider-width;
+      margin: $divider-margin;
+    }
+}

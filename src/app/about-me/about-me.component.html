@@ -1,14 +1,22 @@
-<ng-container #aboutMe>
-    <span><h3>Hi, I'm Porter</h3></span>
-    <span><h5>A Full Stack/Frontend Developer</h5></span> 
+<div #aboutMe class="about-me">
+    <h3>Hi, I'm Porter</h3>
+    <h5>A Full Stack/Frontend Developer</h5>
 
-    <div #aboutMe style="width: 80%">
-        My mission is to create web applications that people actually enjoy using. 
-        I have a strong background in backend development, leveraging technologies like 
-        C#, Java, Python, .NET Core, and T-SQL to build robust and scalable solutions. 
-        On the frontend, I specialize in crafting intuitive and visually appealing interfaces 
-        using JavaScript, TypeScript, Angular, Angular Material, HTML5, SASS, and RxJS. 
-        I believe in the power of technology to simplify and enhance our lives, and I'm dedicated 
-        to building applications that do just that. 
+    <div #aboutMeDescription class="description">
+        <p>
+            I'm passionate about crafting web applications that are both beautiful and user-friendly. 
+            With expertise in both backend technologies (C#, Java, Python, .NET Core, T-SQL) and 
+            frontend frameworks (JavaScript, TypeScript, Angular, Angular Material, HTML5, SASS, RxJS), 
+            I thrive on building solutions that solve real problems and delight users.
+        </p>
     </div>
-</ng-container>
+    <mat-divider></mat-divider>
+    <div #aboutMeHobbies class="description">
+        <p>
+            Beyond coding, I'm an avid DIY enthusiast, finding satisfaction in building and modifying mechanical 
+            keyboards and building and upgrading PCs. I'm also passionate about the outdoors, enjoying activities like hiking, 
+            fly fishing, and spending time with my dog. When I'm not exploring nature or honing my technical skills, 
+            I express my creativity through fly tying and leatherwork and cherish quality time with loved ones.
+        </p>
+    </div>
+  </div>
